@@ -1,7 +1,7 @@
 #!/bin/sh
+systemctl enable novnc-x11vnc.service
+systemctl enable novnc.service
+
+systemctl start novnc-x11vnc.service
 systemctl start novnc.service
-systemctl start novnc-desktop.service
-#chown root:root /usr/bin/winechown
-#chmod 777 /usr/bin/winechown
-#chmod a+s /usr/bin/winechown
 

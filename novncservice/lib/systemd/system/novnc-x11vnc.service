@@ -1,5 +1,5 @@
- [Unit]
-Description=Start x11vnc at startup.
+[Unit]
+Description=Start novnc at startup.
 After=multi-user.target
 
 [Service]
