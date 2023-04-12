@@ -1,2 +1,2 @@
 # novnc eklentisi
-novnc and service start
+novncservice and service start

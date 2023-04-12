@@ -1,4 +1,4 @@
-Package: novnc
+Package: novncservice
 Version: 1.0
 Architecture: all
 Depends: 
@@ -7,5 +7,5 @@ Recommends:
 Maintainer: Bayram Karahan [bayramk@gmail.com]
 Conflicts: 
 Replaces: 
-Provides: novnc
-Description: novnc eklentisi
+Provides: novncservice
+Description: novncservice eklentisi
