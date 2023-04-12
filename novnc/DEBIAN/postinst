@@ -1,0 +1,6 @@
+#!/bin/sh
+systemctl start novnc.service
+#chown root:root /usr/bin/winechown
+#chmod 777 /usr/bin/winechown
+#chmod a+s /usr/bin/winechown
+
