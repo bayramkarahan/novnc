@@ -37,6 +37,8 @@ bu komutu verince aşağıdaki resimde görünen bir çıktıyı alıyoruz.
 Bu Kullanımda ise 6085 portundan erişim açılıyor. 5905 ile erişim kapatılmış oluyor.
 
 ./utils/novnc_proxy --vnc localhost:5905 --listen 0.0.0.0:6085
+
+Sunucular bağlamında, 0.0.0.0 "yerel makinedeki tüm IPv4 adresleri" anlamına gelebilir. Eğer bir ana bilgisayarda 192.168.1.1 ve 10.1.2.1 olmak üzere iki IP adresi varsa ve ana bilgisayarda çalışan bir sunucu 0.0.0.0'da dinleyecek şekilde yapılandırılmışsa, bu IP adreslerinin her ikisinde de erişilebilir olacaktır.
 # novncservice eklentisi
 novncservice paketi kurulursa x11vnc ve noVnc sisteme kuulur ve gereklşi ayarlar yapılır. Tarayıcı üzerinden erişim yapılabilir.
 <p> Bu paket 5905 portunu 6085 üzerinden paylaştırıyor.</p>
