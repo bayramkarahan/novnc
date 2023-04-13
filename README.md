@@ -38,8 +38,9 @@ Bu Kullanımda ise 6085 portundan erişim açılıyor. 5905 ile erişim kapatıl
 
 ./utils/novnc_proxy --vnc localhost:5905 --listen 0.0.0.0:6085
 # novncservice eklentisi
-novncservice x11vnc kurulu ve başlatılmış ise tarayıcı üzerinden erişim sağlar.
+novncservice paketi kurulursa x11vnc ve noVnc sisteme kuulur ve gereklşi ayarlar yapılır. Tarayıcı üzerinden erişim yapılabilir.
 <p> Bu paket 5905 portunu 6085 üzerinden paylaştırıyor.</p>
+
 Tarayıcıya;
 
 ` 
