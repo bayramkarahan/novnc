@@ -1,5 +1,6 @@
 ![Github stats 1](https://github-readme-stats.vercel.app/api?username=bayramkarahan&show_icons=true&theme=gradient) 
 ![Github stats 2](https://github-readme-stats.vercel.app/api?username=bayramkarahan&show_icons=true&theme=radical)
+<img src=https://github.com/bayramkarahan/novncservice/raw/master/1.png/>
 # noVnc Nedir?
 novnc web tarayıcı ile vnc portuna erişimi sağlayan(masaüstüne) bir uygulamadır. Uzak veya yerelde tarayıcı üzerinden istenilen bilgisayara erişmeyi sağlamaktadır.
 Avantajları şunlardır:
@@ -33,7 +34,7 @@ novnc_proxywebsockify'ı otomatik olarak indirmek ve başlatmak için komut dosy
 ./utils/novnc_proxy --vnc localhost:5902
 
 bu komutu verince aşağıdaki resimde görünen bir çıktıyı alıyoruz.
-
+<img src=https://github.com/bayramkarahan/novncservice/raw/master/2.png/>
 Bu Kullanımda ise 6085 portundan erişim açılıyor. 5905 ile erişim kapatılmış oluyor.
 
 ./utils/novnc_proxy --vnc localhost:5905 --listen 0.0.0.0:6085
@@ -47,7 +48,7 @@ ip:6085/vnc.html
 `
 
 adressinden masaüstüne erişilebilir.
-
+<img src=https://github.com/bayramkarahan/novncservice/raw/master/3.png/>
 
 
 *Kaynaklar:*
