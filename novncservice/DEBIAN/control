@@ -1,7 +1,7 @@
 Package: novncservice
 Version: 1.0
 Architecture: all
-Depends: x11vnc
+Depends: x11vnc, git
 Pre-Depends:
 Recommends: 
 Maintainer: Bayram Karahan [bayramk@gmail.com]
